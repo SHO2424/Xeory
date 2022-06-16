@@ -1,0 +1,258 @@
+/* common */
+p{
+    margin: 0;
+}
+img {
+    width: 100%;
+    
+}
+/* header */
+header {
+    background: #47B39D;
+}
+header .container {
+   min-height: 92px;
+}
+
+header a {
+    text-decoration: none;
+}
+.navbar-brand:hover {
+    border-bottom: 2px solid white;
+}
+header li:hover {
+    opacity: .4;
+}
+/* main */
+.main {
+    max-width: 600px;
+    height: 100vh;
+}
+.main-header {
+    background-color: #41BAA4;
+    background-image: -webkit-linear-gradient(bottom right, #41baa4, #42a994);
+    background-image: linear-gradient(to top left, #41baa4, #42a994);
+}
+.articul-title h2 {
+    font-size: 24px;
+}
+.articul img {
+    width: 100%;
+}
+.btn {
+    background: #47B39D;
+    font-size: 12px;
+}
+.test:hover {
+    width: fit-content;
+     border-bottom: 1px solid #41BAA4;
+    
+
+}
+.rank-1,
+.rank-2,
+.rank-3,
+.rank-4,
+.rank-5,
+.rank-6 {
+    margin-left: 12px;
+}
+.rank-1 {
+    background: #D6B038;
+    opacity: 0.7;
+}
+.rank-2 {
+    background: #BFC4C9;
+    opacity: 0.7;
+}
+.rank-3 {
+    background: #B9704E;
+    opacity: 0.7;
+}
+.rank-4 {
+    background: #47442F;
+    opacity: 0.7;
+}
+.rank-5 {
+    background:#47442F;
+    opacity: 0.7;
+}
+.rank-6 {
+    background: #3B4552;
+    opacity: 0.7;
+}
+.year {
+    font-size: 12px;
+}
+.month {
+    font-size: 14px;
+}
+.balloon{
+    position: relative;
+    padding: 2em;
+    background: #3B4552;
+  }
+  .balloon:after{
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #3B4552 transparent transparent transparent;
+    border-width: 20px 20px 0 20px;
+  }
+  .features-text {
+    padding: 80px;
+  }
+  .features-text h2,p,
+  .service h2
+   {
+        color: #47B39D;
+  }
+  .btn2 {
+      background: #FF6C00;
+      border-color: #FF6C00;
+      font-size: 15px;
+  }
+  .num {
+      margin-left: 80px;
+      height: 65px;
+      width: 35px;
+      /* padding: 40px 12px 8px 12px; */
+      background: #47B39D;
+      position: absolute;
+      top:0;
+      left:0;
+  }
+  .features-text {
+      position: relative;
+  }
+  .btn3 {
+      font-size: 15px;
+      background: #47B39D;
+      border-color: #47B39D;
+  }
+.section-item {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.company {
+    /* padding:80px 50px 60px 60px; */
+    min-height: 450px;
+ 
+}
+table {
+    margin: 0;
+}
+.company-name  {
+    border-top :2px solid #47B39D;
+}
+.map  {
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    
+}
+.inquiry {
+    background: #47B39D;
+    padding-top: 80px;
+}
+form {
+    max-width: 632px;
+    width: 100%;
+    margin: 0 auto;
+}
+.submit {
+    padding: 12px 80px 12px 80px;
+    background: #131D2A;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 80px;
+}
+.inquiry input,textarea {
+    border-radius: 5px;
+    border:none;
+}
+.cot+.cot:not(:first-child){
+    padding-left: 10px;
+}
+/* footer */
+.footer {
+    border-top: 8px solid #3B4552 ;
+    background: #031731;
+}
+.footer-title {
+    border-bottom: 1px solid #3B4552;
+}
+.footer-items li {
+    margin-bottom: 10px;
+}
+.footer-items a {
+    text-decoration: none;
+}
+.footer-items a:hover {
+    opacity: 0.6;
+    transition: .3s;
+}
+.footer-items ul {
+    list-style: none;
+}
+.footer-item::before{
+    content: "";
+    display: inline-block;
+    border-top: 2px solid #fff;
+    border-right:2px solid #fff;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    margin-right: 5px;
+}
+.facebook-img {
+    margin-left: 100px;
+}
+footer {
+    height: 80px;
+    background: #000;
+}
+
+/* media */
+@media (max-width:960px){
+    .balloon::after {
+        display: none;
+    }
+    .features-text {
+        text-align: center;
+    }
+    .num {
+        height: 65px;
+        width: 35px;
+        /* padding: 40px 12px 8px 12px; */
+        background: #47B39D;
+        position: absolute;
+        top:0;
+        left: 39%;
+        
+    }
+    .features-text h2{
+        margin-top: 30px;
+    }
+    .main {
+        height: 764px;
+    }
+
+}
+@media (max-width:767px){
+    .cot {
+        padding:0 10px 0 10px;
+        margin-bottom: 30px;
+            }
+            .main {
+                height: px;
+            }
+}
+
+
